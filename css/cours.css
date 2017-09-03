@@ -134,6 +134,9 @@ label {
 .image {
     
     flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -181,6 +184,30 @@ img {
 }
 
 
+@media screen and (max-width: 1024px) {
+   
+    input {
+        
+        font-size: 2em;
+    }
+    
+    .image {
+        
+        flex: 8;
+    }
+    
+    article {
+        
+        width: 95%;
+    }
+    
+    .description {
+        
+        margin: 10px 20px;
+    }
+    
+    
+}
 
 
 

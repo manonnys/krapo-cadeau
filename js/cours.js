@@ -57,6 +57,8 @@ document.getElementById("form_destination").addEventListener("submit", function(
         document.getElementById("message").textContent = "Nous sommes désolés, vu sa grande popularité, la destination que vous avez sélectionnée n'est plus disponible. Veuillez faire un autre choix."
     }
     
+    window.scroll(0,10000);
+    
 })
 
 
@@ -67,7 +69,10 @@ Array.prototype.slice.call(document.querySelectorAll('input[name="destination"]'
     var valeur = e.target.value;
     console.log(valeur);
     document.getElementById("choix").textContent = valeur;
-    } else {}
+    } else {
+        
+       document.getElementById("message").textContent = "Veuillez choisir une destination." 
+    }
     
 })
 })
