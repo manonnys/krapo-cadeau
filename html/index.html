@@ -1,0 +1,150 @@
+<!doctype html>
+
+<html>
+
+
+<head>
+
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="../css/cours.css"> 
+    <title>Krapo</title>
+
+</head>
+
+
+<body>
+
+    <header>
+        <h1>Des vacances de rêve avec Krapo</h1>
+    </header>
+    
+    <section id="form">
+        
+        <form id="form_code">
+            <input type= "text" required id="numero" placeholder="Code cadeau"/><input type = "submit" id="bouton"/>
+        </form>
+        
+    </section>
+    
+    <section id="contenu" class="invisible">
+    
+        <form id="form_destination">
+        
+            <article>
+                
+                <div class="input">
+                    <label>Choisir</label><input type="radio" id="Charleroi" name="destination" value="Charleroi"/>
+                </div>
+                
+                <div class="image">
+                <img src="Charleroi.jpg" alt="Charleroi" title="Charleroi"/>
+                </div>
+                
+                <div class="description">
+                <h2>Charleroi</h2>
+                    <p>Laissez-vous conquérir par le charme pittoresque de Charleroi, une des villes phares du petit Royaume de Belgique. Découvrez les richesses de son passé industriel en flânant dans les ruelles de son magnifique centre-ville, qui lui ont valu le prix prestigieux de «ville la plus laide du monde.»</p>
+                    <p>3 nuitées en pension complète dans l'arrière-salle du café «Chez Didier». Dégustation spéciale de bière au petit-déjeuner.</p>
+                </div>
+                
+            </article>
+            
+            
+            <article>
+                
+                <div class="input">
+                    <label>Choisir</label><input type="radio" id="Arabie" name="destination" value="La Mecque"/>
+                </div>
+                
+                <div class="image">
+                <img src="Arabie_Saoudite.jpg" alt="Arabie Saoudite" title="Arabie Saoudite" />
+                </div>
+                
+                <div class="description">
+                    <h2>La Mecque</h2>
+                        <p>Ressourcez-vous grâce au calme enchanteur de cette capitale du désert, riche de 1500 ans d'histoire. Offre soumise à conditions.</p>
+                        <p>Conditions: offre réservée aux musulmans. Les femmes sont priées d'être couvertes des pieds à la tête. Krapo décline toute responsabilité en cas de piétinement.</p>
+                </div>
+
+            </article>
+            
+            <article>
+                
+                <div class="input">
+                    <label>Choisir</label><input type="radio" id="Palmyre" name="destination" value="Palmyre"/>
+                </div>
+                
+                <div class="image">
+                <img src="Palmyre.jpg" alt="Palmyre" title="Palmyre" />
+                </div>
+                
+                <div class="description">
+                    <h2>Palmyre</h2>
+                        <p>Laissez-vous émerveiller par les vestiges parfaitement conservés de cette cité antique, joyau du Moyen-Orient. Vous pourrez également prendre place aux premières loges de l'Histoire en train s'écrire, accompagnés de nos guides francophones.</p>
+                </div>
+
+            </article>
+            
+            <article>
+                
+                <div class="input">
+                    <label>Choisir</label><input type="radio" id="Micha" name="destination" value="Ferney-Voltaire"/>
+                </div>
+                
+                <div class="image">
+                <img src="Micha.jpg" alt="Micha" title="Micha" />
+                </div>
+                
+                <div class="description">
+                    <h2>Ferney-Voltaire</h2>
+                        <p>Le charmant couple Micha &amp; Manon vous acueille dans leur KrapoBnb, en banlieue de Genève. Avec eux, vous découvrirez la région, entre le lac Léman et les pentes du Jura, entre la tradition du terroir viticole et la sophistication technologique du CERN.</p>
+                        <p>Pension complète, transports compris. Vous goûterez aux bons plats mijotés par vos hôtes.</p>
+                </div>
+
+            </article>
+            
+            <article>
+                
+                <div class="input">
+                    <label>Choisir</label><input type="radio" id="plage" name="destination" value="Poubelle-sur-mer"/>
+                </div>
+                
+                <div class="image">
+                <img src="Plage_polluee.jpg" alt="plage" title="plage" />
+                </div>
+                
+                <div class="description">
+                    <h2>Poubelle-sur-mer</h2>
+                        <p>Relaxez-vous sur les plages paradisiaques d'une des cités balnéaires les plus en vogue du moment. Ciel bleu, mer limpide, plage de sable fin.</p>
+                </div>
+
+            </article>
+            
+            <article>
+                
+                <div class="input">
+                    <input id="confirmer" type="submit" value="Confirmer"/>
+                </div>
+                
+                <div class="image"></div>
+                
+                <div class="description">
+                    <p>Vous avez choisi: <span id="choix">destination</span></p>
+                </div>
+                
+            </article>
+            
+        </form>
+        
+    </section>
+    
+    <section id="message">
+    
+    </section>
+
+    <script src="../js/cours.js"></script>
+
+</body>
+
+
+</html>

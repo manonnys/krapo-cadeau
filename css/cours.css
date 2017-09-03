@@ -1,0 +1,186 @@
+/* Body */
+
+body {
+    
+    background: rgba(7,112,0,0.2);
+    margin: 0px;
+    font-family: Arial, sans-serif;
+    
+}
+
+/* Header */
+
+header {
+    
+    background: url("plage.jpg");
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+h1 {
+    
+    margin-top: 0px;
+    font-size: 3.5em;
+    color: rgba(7,112,0,1);
+    
+}
+
+/* Formulaire dans la première section */
+
+#form {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+
+
+input {
+    
+    padding: 0px;
+    text-align: center;
+    
+}
+
+#bouton {
+    
+    border-radius: 0px 10px 10px 0px;
+    border: 0px;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: rgba(7,112,0,1);
+    color: white;
+    
+}
+
+#bouton:hover {
+    
+    background: rgba(7,112,0,0.8);
+    
+}
+
+#numero {
+    
+    border-radius: 10px 0px 0px 10px;
+    border: 0px;
+    height: 50px;
+    color: rgb(0,96,12);
+    
+}
+
+
+/* Formulaire dans la deuxième section */
+
+
+#contenu {
+
+    padding: 10px;
+    
+}
+
+.invisible {
+    
+        display: none;
+}
+
+article {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: white;
+    padding: 10px;
+    border: solid rgba(7,112,0,1) 1px;
+    border-radius: 5px;
+    width: 80%;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+h2 {
+    
+    display: inline;
+    color: rgba(7,112,0,1);
+    
+}
+
+.input {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    order: 3;
+    flex: 1;
+    text-align: center;
+    
+}
+
+label {
+    
+    padding: 5px;
+    
+}
+
+.image {
+    
+    flex: 5;
+    
+}
+
+.description {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 12;
+    margin: 10px 40px;
+    font-size: 1.2em;
+    
+}
+
+img {
+    
+    width: 100%;
+    
+}
+
+#confirmer {
+    
+    border-radius: 10px;
+    border: 0px;
+    height: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: rgba(7,112,0,1);
+    color: white;
+    
+}
+
+#choix {
+    
+    font-weight: bold;
+    
+}
+
+#message {
+    
+    margin: 10px;
+    text-align: center;
+    color: rgba(7,112,0,1);
+    font-size: 1.3em;
+}
+
+
+
+
+
